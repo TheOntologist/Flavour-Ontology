@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/Flavour#"
+     xml:base="http://www.semanticweb.org/ontologies/Flavour"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/Flavour">
+        <rdfs:label>Flavour Ontology</rdfs:label>
+        <dc:creator>Robert Stevens</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/Flavour#AnnotationProperty1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#ObjectProperty2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taste Bud Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coolness Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class40"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pungency Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+        <rdfs:comment>Hotness</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fat Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numbness Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class40"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class14">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astringency Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metallicness  Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starchiness Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class17">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chewiness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The sensation of sustained, elastic resistance from food while it is chewed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class18">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cohesiveness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which the sample deforms before rupturing when biting with molars</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crunchiness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The audible grinding of a food when it is chewed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sour Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class20">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Density Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The compactness of cross section of the sample after biting completely through with the molars</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class21">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dryness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which the sample feels dry in the mouth</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class22">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exquisiteness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The perceived quality of the item in question</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fracturability Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The force with which the sample crumbles, cracks or shatters.  Fracturability encompasses crumbliness, crispiness, crunchiness and brittleness.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class24">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graininess Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which a sample contains small grainy particles</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class25">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gumminess Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The energy required to disintegrate a semi-solid food to a state ready for swallowing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class26">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The force required to deform the product to a given distance, i.e., force to compress between molars, bite through with incisors, compress between tongue and palate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class27">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heaviness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The weight of product perceived when first placed on tongue</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juiciness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>moisture</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class29">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moisture absorption Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class28"/>
+        <rdfs:comment>The amount of saliva absorbed by product</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class30">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moisture release Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class28"/>
+        <rdfs:comment>The amount of wetness/juiciness released from sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouthcoating Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The type and degree of coating in the mouth after mastication (for example, fat/oil)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roughness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree of abrasiveness of product&#39;s surface perceived by the tongue</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class33">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slipperiness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which the product slides over the tongue</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class34">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smoothness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The absence of any particles, lumps, bumps, etc., in the product</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uniformity Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which the sample is even throughout or the homogeneity of the sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class36">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uniformity of bite Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The evenness of force throughout the bite</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class37">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uniformity of chew Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The degree to which the chewing characteristics of the product are even throughout mastication</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class38">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viscosity Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The force required to draw a liquid from a spoon over the tongue</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class39">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wetness Mouthfeel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+        <rdfs:comment>The amount of moisture perceived on product&#39;s surface</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bitter Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class40">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemesthesetic Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class41">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavour Detection</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class43"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class42">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigeminal Nerve Stimulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class43">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taste Detection</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class44 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class44">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taste Detection Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class45 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class45">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavour</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class41"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salty Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savoury Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class1"/>
+        <AnnotationProperty1>Umami</AnnotationProperty1>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smell Detection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouth Feel Detection</rdfs:label>
+        <rdfs:comment>see https://en.wikipedia.org/wiki/Mouthfeel</rdfs:comment>
+        <AnnotationProperty1>Mouth Feel</AnnotationProperty1>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class44"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class17"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class18"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class20"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class21"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class22"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class23"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class24"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class25"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class26"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class27"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class31"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class32"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class33"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class34"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class35"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class36"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class37"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class38"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class39"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1787) http://owlapi.sourceforge.net -->
+
