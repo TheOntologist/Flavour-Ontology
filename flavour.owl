@@ -65,6 +65,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/Flavour#ObjectProperty3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -419,6 +427,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class41">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavour Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
@@ -445,6 +454,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class42">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigeminal Nerve Stimulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
     </owl:Class>
     
 
@@ -453,6 +463,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class43">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taste Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty1"/>
@@ -467,6 +478,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class44">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taste Detection Part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
     </owl:Class>
     
 
@@ -475,12 +487,49 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class45">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flavour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class47"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty2"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class41"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class46">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class48"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class47"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class47">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class48"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class48 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class48">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/Flavour#Class49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class49">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class47"/>
     </owl:Class>
     
 
@@ -508,6 +557,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class7">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smell Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/Flavour#ObjectProperty3"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Should eventually be ChEBI</rdfs:comment>
     </owl:Class>
     
 
@@ -516,6 +573,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/Flavour#Class8">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouth Feel Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/Flavour#Class46"/>
         <rdfs:comment>see https://en.wikipedia.org/wiki/Mouthfeel</rdfs:comment>
         <AnnotationProperty1>Mouth Feel</AnnotationProperty1>
     </owl:Class>
